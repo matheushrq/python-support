@@ -21,7 +21,7 @@ plt.show()
 
 # visualização de dados com gráfico de barras
 eixo_x = ['A', 'B', 'C', 'D', 'E']
-eixo_y = [5, 7, 3, 8, 4]
+eixo_y = [5, 7, 3, 8, 2]
 
 sns.barplot(x=eixo_x, y=eixo_y)
 
@@ -33,4 +33,4 @@ plt.xlabel("Eixo X")
 plt.ylabel("Eixo Y")
 
 # Exibir o gráfico
-plt.show()  
+plt.show()
