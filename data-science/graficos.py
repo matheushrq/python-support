@@ -34,3 +34,21 @@ plt.ylabel("Eixo Y")
 
 # Exibir o gráfico
 plt.show()
+
+# comparação de dois gráficos de barras
+import matplotlib.pyplot as plt
+
+x1 = [4, 6, 2, 9, 8]
+y1 = [5, 7, 3, 8, 2]
+x2 = [1, 2, 3, 4, 5]
+y2 = [2, 3, 5, 7, 11]
+
+plt.title("Comparação de Gráficos de Barras")
+plt.xlabel("Eixo X")
+plt.ylabel("Eixo Y")
+
+plt.bar(x1, y1, label='Conjunto 1', alpha=0.7)
+plt.bar(x2, y2, label='Conjunto 2', alpha=0.7)
+
+plt.legend()
+plt.show()
