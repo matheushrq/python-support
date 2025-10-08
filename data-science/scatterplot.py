@@ -5,7 +5,7 @@ x = [1, 3, 6, 9, 12]
 y = [3, 7, 1, 4, 10]
 
 # Título do gráfico
-plt.title("Gráfico de Dispersão")
+plt.title("Scatterplot: Gráfico de Dispersão")
 
 # Rótulos dos eixos
 plt.xlabel("Eixo X")
@@ -16,7 +16,10 @@ plt.plot(x, y, label='Linha', color='k', linestyle='--')
 
 # Exibir o gráfico
 plt.legend()
-plt.show()
+#plt.show()
+
+# Salvando figuras
+plt.savefig("scatterplot.png")
 
 '''
 Documentação oficial do Matplotlib
