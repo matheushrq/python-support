@@ -14,6 +14,7 @@ for i in range(len(dados)):
         y.append(int(linha[1]))
 
 plt.bar(x, y, color='gray', alpha=0.3)
+#plt.scatter(x, y, color='gray', alpha=0.3)
 plt.plot(x, y, color='black', marker='_')
 plt.title("Crescimento da População Brasileira (1980-2016)")
 plt.xlabel("Ano")
